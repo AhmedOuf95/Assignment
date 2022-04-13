@@ -12,18 +12,18 @@ private:
 	string courseName;
 	int id;
 	string instructorName;
-	//vector<string>students;
+	vector<string>students;
 
 public:
 	// Default const.
-	 course() {
+	 Course() {
 		courseName = "";
 		id = 0;
 		instructorName = "";
 		//vector<string>students = {};
 	}
 	// Paramet. Const.
-	 course(string courseName, int id, string instructorName) {
+	 Course(string courseName, int id, string instructorName) {
 		this->courseName = courseName;
 		this->id = id;
 		this->instructorName = instructorName;
